@@ -27,7 +27,7 @@ const Footer = () => {
           href="https://drive.google.com/file/d/1fTQdS2TGkOd8EAERlmAaZZKU66LWqU3p/view?usp=sharing"
           target="__blank"
         >
-        <i class="fa-duotone fa-folder-open fa-2x"></i>
+        <i className="fa-duotone fa-folder-open fa-2x"></i>
         </a>
       </div>
     </div>

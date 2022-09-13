@@ -3,7 +3,6 @@ import "./App.css";
 import NavInShort from "./components/NavInShort";
 import Axios from "axios";
 import NewsContent from "./components/NewsContent/NewsContent";
-import { API_KEY } from "./config/config";
 import Footer from "./components/Footer/Footer";
 function App() {
   const [category, setCategory] = useState("sports");
@@ -28,8 +27,6 @@ function App() {
       console.log(error);
     }
   };
-
-  console.log(newsArray);
   return (
     <div className="App">
       <NavInShort setCategory={setCategory}></NavInShort>
